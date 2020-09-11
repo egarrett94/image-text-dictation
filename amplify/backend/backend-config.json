@@ -1,0 +1,18 @@
+{
+  "auth": {
+    "ampmlececa121": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "predictions": {
+    "identifyTextc9856b79": {
+      "providerPlugin": "awscloudformation",
+      "service": "RekognitionAndTextract",
+      "dependsOn": [],
+      "identifyType": "identifyText"
+    }
+  }
+}
